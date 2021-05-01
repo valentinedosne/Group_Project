@@ -1,7 +1,6 @@
 class profil:
-    def create_profil(name, marital_situation, children, age, criminal_record, education, homeowner, employment, income, 
-                     co_applicant_income, credit_history): 
-        name = {
+    def __init__ (self, marital_situation, children, age, criminal_record, education, homeowner, employment, income, co_applicant_income, credit_history): 
+        self = {
             "Marital situation" : marital_situation,
             "Children" : children,
             "Age" : age,
@@ -14,4 +13,5 @@ class profil:
             "Credit history" : credit_history
         }
         return name
+
 
